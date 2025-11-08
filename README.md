@@ -43,9 +43,11 @@ python liepin_main.py
 运行结束后，文件夹内会生成一个名为 cleaned_job_data.csv 的文件，这就是我们最终的、干净的数据成品！
 
 📂 文件结构 (File Structure)
+```
 .
 ├── liepin_scraper.py             # 模块一：负责执行爬虫，抓取原始数据并保存为 job_data.csv
 ├── liepin_cleaner.py             # 模块二：包含核心的数据清洗函数
 ├── liepin_main.py                # 模块三：主控脚本，负责读取原始数据，用清洗函数，并保存最终结果
 ├── requirements.txt       # 项目依赖库清单
 └── README.md              # 就是本文件，项目说明书
+```
