@@ -24,7 +24,9 @@ webdriver-manager: 自动管理浏览器驱动，实现“开箱即用”，无�
 2. 安装依赖
 
 打开您的终端（或CMD），进入项目所在的文件夹，运行以下命令，安装本项目所需的所有库：
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 3. 执行项目
 
@@ -32,13 +34,17 @@ webdriver-manager: 自动管理浏览器驱动，实现“开箱即用”，无�
 
 第一步：运行爬虫脚本，获取原始数据
 在终端中运行（请确保文件名与您的文件名一致）：
-```python liepin_scraper.py```
+```
+python liepin_scraper.py
+```
 
 运行结束后，项目文件夹内会生成一个名为 `job_data.csv` 的文件，里面包含了所有未经处理的原始数据。
 
 第二步：运行主控脚本，清洗并生成最终数据
 接着运行：
-```python liepin_main.py```
+```
+python liepin_main.py
+```
 
 运行结束后，文件夹内会生成一个名为 `cleaned_job_data.csv` 的文件，这就是我们最终的、干净的数据成品！
 
